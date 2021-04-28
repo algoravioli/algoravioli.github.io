@@ -7,7 +7,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
     });
   }
 
-  var trace1 = {
+  var CapacitorA = {
     x: unpack(rows, "x1"),
     y: unpack(rows, "y1"),
     z: unpack(rows, "z1"),
@@ -16,14 +16,14 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
       size: 2,
       line: {
         color: "red",
-        width: 0.5,
+        width: 3,
       },
       opacity: 0.8,
     },
     type: "scatter3d",
   };
 
-  var trace2 = {
+  var CapacitorB = {
     x: unpack(rows, "x2"),
     y: unpack(rows, "y2"),
     z: unpack(rows, "z2"),
@@ -34,14 +34,14 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
-        width: 1,
+        width: 3,
       },
       opacity: 0.8,
     },
     type: "scatter3d",
   };
 
-  var trace2 = {
+  var CapacitorC = {
     x: unpack(rows, "x3"),
     y: unpack(rows, "y3"),
     z: unpack(rows, "z3"),
@@ -52,35 +52,17 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
-        width: 1,
+        width: 3,
       },
       opacity: 0.8,
     },
     type: "scatter3d",
   };
 
-  var trace3 = {
+  var CapacitorD = {
     x: unpack(rows, "x4"),
     y: unpack(rows, "y4"),
     z: unpack(rows, "z4"),
-    mode: "markers",
-    marker: {
-      color: "green",
-      size: 2,
-      symbol: "circle",
-      line: {
-        color: "rgb(204, 204, 204)",
-        width: 1,
-      },
-      opacity: 0.8,
-    },
-    type: "scatter3d",
-  };
-
-  var trace4 = {
-    x: unpack(rows, "x5"),
-    y: unpack(rows, "y5"),
-    z: unpack(rows, "z5"),
     mode: "markers",
     marker: {
       color: "cyan",
@@ -88,17 +70,17 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
-        width: 1,
+        width: 3,
       },
       opacity: 0.8,
     },
     type: "scatter3d",
   };
-  
-  var trace5 = {
-    x: unpack(rows, "x2"),
-    y: unpack(rows, "y2"),
-    z: unpack(rows, "z2"),
+
+  var CapacitorE = {
+    x: unpack(rows, "x5"),
+    y: unpack(rows, "y5"),
+    z: unpack(rows, "z5"),
     mode: "markers",
     marker: {
       color: "magenta",
@@ -106,14 +88,15 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
-        width: 1,
+        width: 3,
       },
       opacity: 0.8,
     },
     type: "scatter3d",
   };
+  
 
-  var data = [trace1, trace2, trace3, trace4, trace5];
+  var data = [CapacitorA, CapacitorB, CapacitorC, CapacitorD, CapacitorE];
   var layout2 = {
     
         title: 'Sales Growth',
