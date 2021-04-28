@@ -18,7 +18,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
-        width: 3,
+        width: 2,
       },
       opacity: 0.2,
     },
@@ -36,7 +36,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
-        width: 3,
+        width: 2,
       },
       opacity: 0.8,
     },
@@ -54,7 +54,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
-        width: 3,
+        width: 2,
       },
       opacity: 0.8,
     },
@@ -72,7 +72,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
-        width: 3,
+        width: 2,
       },
       opacity: 0.8,
     },
@@ -90,7 +90,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
-        width: 3,
+        width: 2,
       },
       opacity: 0.8,
     },
