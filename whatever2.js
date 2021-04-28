@@ -14,7 +14,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
     mode: "markers",
     marker: {
       color: "red",
-      size: 4,
+      size: 2,
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
@@ -32,7 +32,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
     mode: "markers",
     marker: {
       color: "green",
-      size: 4,
+      size: 2,
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
@@ -50,7 +50,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
     mode: "markers",
     marker: {
       color: "blue",
-      size: 4,
+      size: 2,
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
@@ -68,7 +68,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
     mode: "markers",
     marker: {
       color: "cyan",
-      size: 4,
+      size: 2,
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
@@ -86,7 +86,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
     mode: "markers",
     marker: {
       color: "magenta",
-      size: 4,
+      size: 2,
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
