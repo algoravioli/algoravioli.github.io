@@ -20,7 +20,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
         color: "rgb(204, 204, 204)",
         width: 3,
       },
-      opacity: 0.8,
+      opacity: 0.2,
     },
     type: "scatter3d",
   };
