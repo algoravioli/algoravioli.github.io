@@ -14,7 +14,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
     mode: "markers",
     marker: {
       color: "red",
-      size: 4,
+      size: 8,
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
@@ -80,9 +80,9 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
   };
 
   var CapacitorE = {
-    x: unpack(rows, "x6"),
-    y: unpack(rows, "y6"),
-    z: unpack(rows, "z6"),
+    x: unpack(rows, "x5"),
+    y: unpack(rows, "y5"),
+    z: unpack(rows, "z5"),
     mode: "markers",
     marker: {
       color: "magenta",
@@ -168,5 +168,5 @@ height: '1000'
 };
 
   Plotly.newPlot("myDiv", data, layout);
-  Plotly.newPlot("myDivLower", data, layout2);
+  #Plotly.newPlot("myDivLower", data, layout2);
 });
