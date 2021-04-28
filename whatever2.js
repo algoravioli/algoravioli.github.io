@@ -168,5 +168,5 @@ height: '1000'
 };
 
   Plotly.newPlot("myDiv", data, layout);
-  #Plotly.newPlot("myDivLower", data, layout2);
+  Plotly.newPlot("myDivLower", data, layout2);
 });
