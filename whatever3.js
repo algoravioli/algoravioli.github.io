@@ -8,7 +8,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
   }
 
   var CapacitorA = {
-    alphahull:5,
+    alphahull: 5,
     opacity: 0.8,
     color: "red",
     type: "mesh3d",
@@ -18,75 +18,43 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
   };
 
   var CapacitorB = {
+    alphahull: 5,
+    opacity: 0.8,
+    color: "green",
+    type: "mesh3d",
     x: unpack(rows, "x2"),
     y: unpack(rows, "y2"),
     z: unpack(rows, "z2"),
-    mode: "markers",
-    marker: {
-      color: "green",
-      size: 2,
-      symbol: "circle",
-      line: {
-        color: "rgb(204, 204, 204)",
-        width: 2,
-      },
-      opacity: 0.8,
-    },
-    type: "scatter3d",
   };
 
   var CapacitorC = {
+    alphahull: 5,
+    opacity: 0.8,
+    color: "blue",
+    type: "mesh3d",
     x: unpack(rows, "x3"),
     y: unpack(rows, "y3"),
     z: unpack(rows, "z3"),
-    mode: "markers",
-    marker: {
-      color: "blue",
-      size: 2,
-      symbol: "circle",
-      line: {
-        color: "rgb(204, 204, 204)",
-        width: 2,
-      },
-      opacity: 0.8,
-    },
-    type: "scatter3d",
   };
 
   var CapacitorD = {
+    alphahull: 5,
+    opacity: 0.8,
+    color: "cyan",
+    type: "mesh3d",
     x: unpack(rows, "x4"),
     y: unpack(rows, "y4"),
     z: unpack(rows, "z4"),
-    mode: "markers",
-    marker: {
-      color: "cyan",
-      size: 2,
-      symbol: "circle",
-      line: {
-        color: "rgb(204, 204, 204)",
-        width: 2,
-      },
-      opacity: 0.8,
-    },
-    type: "scatter3d",
   };
 
   var CapacitorE = {
+    alphahull: 5,
+    opacity: 0.8,
+    color: "purple",
+    type: "mesh3d",
     x: unpack(rows, "x5"),
     y: unpack(rows, "y5"),
     z: unpack(rows, "z5"),
-    mode: "markers",
-    marker: {
-      color: "magenta",
-      size: 2,
-      symbol: "circle",
-      line: {
-        color: "rgb(204, 204, 204)",
-        width: 2,
-      },
-      opacity: 0.8,
-    },
-    type: "scatter3d",
   };
 
   var data = [CapacitorA, CapacitorB, CapacitorC, CapacitorD, CapacitorE];
@@ -98,7 +66,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
         range: [0, 2.3],
       },
       yaxis: {
-        range: [0, 0.5],
+        range: [0, 0.6],
       },
       zaxis: {
         range: [-60, -10],
@@ -128,7 +96,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
         range: [0, 4],
       },
       yaxis: {
-        range: [0, 0.5],
+        range: [0, 0.6],
       },
       zaxis: {
         range: [-60, -10],
