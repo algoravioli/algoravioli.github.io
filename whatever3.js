@@ -57,7 +57,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
     z: unpack(rows, "z5"),
   };
 
-  var data = [CapacitorA];
+  var data = [CapacitorA, CapacitorB, CapacitorC, CapacitorD, CapacitorE];
   var layout2 = {
     title: "Sales Growth",
     scene: {
