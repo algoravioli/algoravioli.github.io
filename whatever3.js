@@ -8,7 +8,6 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
   }
 
   var CapacitorA = {
-    mode: "markers",
     opacity: 0.8,
     color: "red",
     type: "mesh3d",
