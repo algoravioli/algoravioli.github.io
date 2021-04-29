@@ -50,7 +50,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
   var CapacitorE = {
     alphahull: 5,
     opacity: 0.8,
-    color: "purple",
+    color: "magenta",
     type: "mesh3d",
     x: unpack(rows, "x5"),
     y: unpack(rows, "y5"),
@@ -66,7 +66,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
         range: [0, 2.3],
       },
       yaxis: {
-        range: [0, 0.6],
+        range: [0, 0.5],
       },
       zaxis: {
         range: [-60, -10],
@@ -96,7 +96,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
         range: [0, 4],
       },
       yaxis: {
-        range: [0, 0.6],
+        range: [0, 0.5],
       },
       zaxis: {
         range: [-60, -10],
