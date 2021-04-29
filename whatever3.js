@@ -98,7 +98,7 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
         range: [0, 2.3],
       },
       yaxis: {
-        range: [0, 0.6],
+        range: [0, 0.5],
       },
       zaxis: {
         range: [-60, -10],
