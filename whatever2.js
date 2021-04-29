@@ -14,13 +14,13 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
     mode: "markers",
     marker: {
       color: "red",
-      size: 2,
+      size: 7,
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
         width: 2,
       },
-      opacity: 0.2,
+      opacity: 0.8,
     },
     type: "scatter3d",
   };
@@ -32,13 +32,13 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
     mode: "markers",
     marker: {
       color: "green",
-      size: 2,
+      size: 7,
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
         width: 2,
       },
-      opacity: 0.8,
+      opacity: 0.2,
     },
     type: "scatter3d",
   };
@@ -50,13 +50,13 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
     mode: "markers",
     marker: {
       color: "blue",
-      size: 2,
+      size: 7,
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
         width: 2,
       },
-      opacity: 0.8,
+      opacity: 0.2,
     },
     type: "scatter3d",
   };
@@ -68,13 +68,13 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
     mode: "markers",
     marker: {
       color: "cyan",
-      size: 2,
+      size: 7,
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
         width: 2,
       },
-      opacity: 0.8,
+      opacity: 0.2,
     },
     type: "scatter3d",
   };
@@ -86,42 +86,37 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
     mode: "markers",
     marker: {
       color: "magenta",
-      size: 2,
+      size: 7,
       symbol: "circle",
       line: {
         color: "rgb(204, 204, 204)",
         width: 2,
       },
-      opacity: 0.8,
+      opacity: 0.2,
     },
     type: "scatter3d",
   };
-  
 
   var data = [CapacitorA, CapacitorB, CapacitorC, CapacitorD, CapacitorE];
   var layout2 = {
-    
-        title: 'Sales Growth',
-        scene:{
-            
-          xaxis: {
-           type: "log",
-           range: [0, 2.3],
-         },
-          yaxis: {
-           
-           range: [0, 0.6],
-         },
-          zaxis: {
-          
-          range: [-60, -10],
-         }},
+    title: "Sales Growth",
+    scene: {
+      xaxis: {
+        type: "log",
+        range: [0, 2.3],
+      },
+      yaxis: {
+        range: [0, 0.6],
+      },
+      zaxis: {
+        range: [-60, -10],
+      },
+    },
     //     yaxis: {
     //       title: 'Percent',
     //       showline: false
     //     },
 
-      
     margin: {
       l: 0,
       r: 0,
@@ -129,43 +124,39 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
       t: 0,
     },
 
-    width: '1000',
-    height: '1000'
+    width: "1000",
+    height: "1000",
   };
 
   var layout = {
-    
-    title: 'Sales Growth',
-    scene:{
-        
+    title: "Sales Growth",
+    scene: {
       xaxis: {
-       type: "log",
-       range: [0, 4],
-     },
+        type: "log",
+        range: [0, 4],
+      },
       yaxis: {
-       
-       range: [0, 0.6],
-     },
+        range: [0, 0.6],
+      },
       zaxis: {
-      
-      range: [-60, -10],
-     }},
-//     yaxis: {
-//       title: 'Percent',
-//       showline: false
-//     },
+        range: [-60, -10],
+      },
+    },
+    //     yaxis: {
+    //       title: 'Percent',
+    //       showline: false
+    //     },
 
-  
-margin: {
-  l: 0,
-  r: 0,
-  b: 0,
-  t: 0,
-},
+    margin: {
+      l: 0,
+      r: 0,
+      b: 0,
+      t: 0,
+    },
 
-width: '1000',
-height: '1000'
-};
+    width: "1000",
+    height: "1000",
+  };
 
   Plotly.newPlot("myDiv", data, layout);
   Plotly.newPlot("myDivLower", data, layout2);
