@@ -154,8 +154,8 @@ Plotly.d3.csv("/data_csv_plotly.csv", function (err, rows) {
       t: 0,
     },
 
-    width: "1000",
-    height: "1000",
+    width: "1500",
+    height: "1500",
   };
 
   Plotly.newPlot("myDiv", data, layout);
