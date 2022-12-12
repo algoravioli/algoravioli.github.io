@@ -3,20 +3,177 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>scatter plot</title>
-    <style>
-      div#myDiv,
-      div#myDivLower {
-        width: 1500px;
-        margin: 0 auto;
-        border-style: solid;
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
+    />
+    <title>Algoravioli Github/CV</title>
   </head>
+
   <body>
-    <div id="myDiv"></div>
-    <!-- <div id="myDivLower"></div> -->
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="/whatever2.js"></script>
+    <main class="container">
+      <strong><h1>Christopher Johann Clarke</h1></strong>
+      <h3>Navigation</h3>
+      <a href="#Bio" role="button" class="contrast outline">Bio</a>
+      <a href="#Education" role="button" class="contrast outline">Education</a>
+      <a href="#WorkExperience" role="button" class="contrast outline"
+        >Work Experience</a
+      >
+      <a href="#Papers" role="button" class="contrast outline"
+        >Papers/Publications</a
+      >
+      <a href="#Musictech" role="button" class="contrast outline"
+        >Work as Music Technologist</a
+      >
+      <h1></h1>
+      <a id="Bio"></a>
+      <h3>A little bit about me.</h3>
+      <h6>
+        PhD candidate at SUTD (Machine Learning/Artificial Intelligence, Audio
+        DSP specialisation) with a passion for reducing resources in Scientific
+        Computing.
+      </h6>
+      <p>
+        My research revolves around a general approach for utilising smal neural
+        networks (cf. <a href="#">Papers/Publications</a>) to achieve greater
+        realtime speeds (less than 5µs for inference). This is done in hopes of
+        relegating our reliance on extremely power-consuming and expensive GPUs
+        to the past. This happens to apply well in the realm of audio DSP, as it
+        allows for realtime performance (at audio rates) of complex audio
+        processing algorithms.
+      </p>
+      <p>
+        Having been the chief engineer at Speakeasy Studios, with more than 10
+        years of experience in audio engineering, I founded OCCD AUDIO, a
+        company specialising in audio technologies. It is my current passion
+        project, where I design unique analog compressors, EQs, and tube
+        microphones, and I work with artists and audio engineers to produce
+        analog hardware processors (and sometimes DSP) that are specific to
+        their use case.
+      </p>
+      <p>
+        I have also been involved with work as a Music Technologist, with my
+        main focus being on generative algorithms and stochastic modelling. Some
+        of my past works include: sonification of a neural network for
+        performance analysis and AI-enabled/AI-powered audio/music generation,
+        real-time deployments of autonomous agents for music generation. My
+        latest work: Music Virutal Corpus, is a collection of Machine
+        Learning/AI tools for composers, sound designers, and music producers.
+        These tools have been abstracted such that only a basic utilitarian
+        knowledge of programming is required to use them.
+      </p>
+
+      <a id="Education"></a>
+      <h3>Education</h3>
+      <p></p>
+      <details open>
+        <summary role="button">Latest</summary>
+        <hgroup>
+          <h6>PhD. in Machine Learning</h6>
+          <p>2019 - 2023</p>
+        </hgroup>
+        <p>
+          Singapore University of Technology and Design, Singapore - Department
+          of Science, Math, and Technology
+        </p>
+      </details>
+      <details close>
+        <summary role="button">Past</summary>
+        <hgroup>
+          <h6>Master of Music (MMus)</h6>
+          <p>2017 - 2019</p>
+        </hgroup>
+        <p>
+          National University of Singapore Yong Siew Toh Conservatory, Singapore
+          - Department of Music Composition
+        </p>
+
+        <hgroup>
+          <h6>Bachelor of Arts (Music) <u>First Class Honours</u></h6>
+          <p>2015 - 2017</p>
+        </hgroup>
+        <p>
+          Liverpool Institute for the Performing Arts, Liverpool John Moores
+          University, United Kingdom - Department of Music
+        </p>
+
+        <hgroup>
+          <h6>Diploma in Music and Audio Technology</h6>
+          <p>2009 - 2012</p>
+        </hgroup>
+        <p>
+          Singapore Polytechnic, Singapore - Department of Digital Media and
+          Infocomm Technology
+        </p>
+
+        <hgroup>
+          <h6>Certificate in Entrepreneurship In Emerging Economies</h6>
+          <p>2020</p>
+        </hgroup>
+        <p>HarvardX</p>
+      </details>
+
+      <a id="WorkExperience"></a>
+      <h3>Work Experience</h3>
+      <hgroup>
+        <h4>OCCD AUDIO</h4>
+        <h5>Founder (2018 to Present)</h5>
+        <h6>
+          Specialising in audio technologies, a company that: develops hardware
+          and software, provides consulting in audio industry, as well as
+          recording, mixing, and mastering services.
+        </h6>
+      </hgroup>
+      <hgroup>
+        <h4>Blueye Pte Ltd</h4>
+        <h5>Tech Lead (2018 to Present)</h5>
+        <h6>
+          In the field of water technologies and SMART cities, the company
+          provides software that validates audiometric readings of leak
+          detection, correlation, and other various acoustic and noise
+          assessment for water. I am responsible for the development of all the
+          algorithms, DSP, Machine Learning, AI, or otherwise.
+        </h6>
+      </hgroup>
+      <hgroup>
+        <h4>Adjunct Lecturer</h4>
+        <h5>
+          Singapore Polytechnic, National University of Singapore,
+          Lasalle-College of the Arts, Singapore Institute of Management (2018 -
+          Present)
+        </h5>
+        <h6>
+          Acoustical Science, Synthesis, Music and Computing (Music Generation,
+          Algorithmic Composition), Desktop Mixing and Production, Appreciation
+          of Classical Music, Building Sonic Circuits, Sound and Music Computing
+          (Goldsmiths Syllabus)
+        </h6>
+      </hgroup>
+      <hgroup>
+        <h4>Speakeasy Studios</h4>
+        <h5>Chief Engineer (2010)</h5>
+        <h6>
+          Chief Engineer overseeing all audio and acoustic maintenance,
+          development, recording, and commercial output.
+        </h6>
+      </hgroup>
+      <hgroup>
+        <h4>Audio Engineer and Music Performer/Composer/Researcher</h4>
+        <h5>(2007 to Present)</h5>
+        <h6>
+          I am one of the few people that can say that I have worked in every
+          single segment of the audio chain. Microphone Design, Preamp and
+          Processor Design, Converters, Audio Framework, Audio Software.
+          Probably also part of the few remaining people that can run a session
+          on a Studer or Otari.
+        </h6>
+        <p>
+          Instruments: Theorbo (Red Dot Baroque), Mandolin, Guitar (Classical,
+          Electric, and Acoustic) with genres spanning from baroque to
+          contemporary classical and experimental. Computer Music: Tape Pieces,
+          Sound installations, Algorave (thus the name).
+        </p>
+      </hgroup>
+    </main>
   </body>
 </html>
