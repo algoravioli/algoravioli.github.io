@@ -1,17 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap');
-
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-h1,
-h2,
-nav {
-  font-family: 'Montserrat', sans-serif;
-}
-
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap'); */
 /* Navigation Styles */
 nav ul {
   list-style-type: none;
