@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Algoravioli - Bio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Algoravioli</title>
+    <meta
+      name="description"
+      content="A pure HTML example, without dependencies."
+    />
+
+    <!-- Pico.css -->
     <link
       rel="stylesheet"
-      href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css"
     />
-    <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
+    <!-- Header -->
     <header class="container">
-      <h1>About Me</h1>
+      <hgroup>
+        <h1>Algoravioli</h1>
+        <p>AUDIO DSP MISCHIEF AND HIJINX</p>
+      </hgroup>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="bio.html">Bio</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <details class="dropdown">
+              <summary role="button" class="secondary">Navigation</summary>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bio.html">Bio</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </details>
+          </li>
         </ul>
       </nav>
     </header>
+    <!-- ./ Header -->
     <main class="container bio">
       <section class="bio-intro">
-        <img
-          src="imgs/chris-bio-pic.webp"
-          alt="Christopher Johann Clarke"
-          class="bio-pic"
-        />
-        <div>
           <h2>About Christopher</h2>
           <p>
             Christopher Johann Clarke, PhD in Artificial Intelligence and
@@ -117,19 +129,23 @@
         <h3>Fun Facts</h3>
         <ul>
           <li>
-            I once programmed a synth patch that mimicked the sound of a singing
-            kettle.
+            Gourmet Oxygen Aficionado: As a distinguished connoisseur of Earth's finest atmospheric blend, I take pride in my refined palate for the quintessential mix of nitrogen, oxygen, and trace gases. Partaking in the subtle art of respiration, I indulge daily in life's most essential gas mixture, not just to fuel my adventures but to showcase my expertise in extracting energy from the simplest of pleasures.
           </li>
           <li>
-            My favorite debugging snack is a tie between salted caramel ice
-            cream and spicy nachos.
+            Bipedal Locomotion Enthusiast: I am a devoted practitioner of the ancient art of bipedal locomotion, having mastered the complex dance of balancing on two limbs and propelling myself forward with grace and precision. This unique ability not only distinguishes me in the animal kingdom but also allows me to navigate the world's vast terrains, from bustling city sidewalks to serene forest paths, with unparalleled elegance.
           </li>
           <li>
-            When I'm not coding or composing, I'm probably mountain biking or
-            brewing espresso.
+            Master of Diurnal Recharging: I possess an innate talent for engaging in the nightly ritual of sleep, perfecting the art of diurnal recharging. Each night, I embark on a journey to the realm of dreams, where my mind and body undergo essential maintenance and rejuvenation. This remarkable process ensures I wake refreshed and ready to face the day's challenges, armed with a renewed sense of purpose and vitality.
           </li>
         </ul>
       </section>
+      <img
+          src="imgs/chris-bio-pic.webp"
+          alt="Christopher Johann Clarke"
+          class="bio-pic"
+          width="500"
+        />
+        <div>
     </main>
   </body>
 </html>

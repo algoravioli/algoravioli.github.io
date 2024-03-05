@@ -1,0 +1,59 @@
+<body>
+    <header class="container">
+      <h1>Algoravioli : Christopher Johann Clarke</h1>
+      <h2>AUDIO DSP MISCHIEF AND HIJINX</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="bio.html">Bio</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="content-flex">
+        <img
+          src="imgs/image.webp"
+          alt="A picture of audio mischief"
+          class="content-image"
+        />
+        <div class="content-text">
+          <h2>Welcome!</h2>
+          <p>
+            Hey you, welcome to my corner of the internet! It's me, Chris, your
+            guide through the wild jungle of audio plugins, where innovation
+            cuddles up with DSP like two peas in a very nerdy pod. Here, I'm not
+            just about making plugins; I'm about making enjoyable plugins both
+            for the developer and the consumer.
+          </p>
+          <p>
+            Ever wondered what the lovechild of joking around with realtime
+            audio would look like? Spoiler: It's my plugins. Here, we take
+            'solid fundamentals' and sprinkle them with just the right amount of
+            AI salt and pepper. Why? Because we can and because it sounds
+            freaking awesome.
+          </p>
+          <p>
+            We're diving deep into the DSP soup with a spoon made of code and a
+            dash of lunacy. From the simplest of equalizers to brain-melting
+            neural networks, we're here to push the envelope—then lick it, seal
+            it, and mail it to 'Boringville, Not Our Problem'.
+          </p>
+          <p>
+            It's where serious sound science meets
+            'I-can't-believe-it's-not-voodoo' magic. We're here to make your
+            tracks shine, your beats pop, and, let's be honest, to have a bit of
+            fun while we're at it. Because if you're not enjoying the process,
+            you're doing it wrong. (Unless its code-signing no one likes
+            that...)
+          </p>
+
+          <p>
+            Also in case it wasn't apparent, the image on the left is by
+            ChatGPT.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>

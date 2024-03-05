@@ -1,0 +1,164 @@
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap'); */
+/* Navigation Styles */
+@media (max-width: 768px) {
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* Reset default margin */
+    display: flex;
+    /* Display list items in a row */
+    justify-content: center;
+    /* Center list items horizontally */
+    width: 100%;
+    /* Ensure the nav takes full width */
+  }
+
+  nav ul li {
+    margin: 0 15px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    /* color: #FFFFFF; */
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+    /* Smooth transition for hover effects */
+  }
+
+  nav ul li a:hover,
+  nav ul li a:focus {
+    /* Focus for keyboard navigation */
+    color: #007BFF;
+    background-color: #d6d6d6;
+    /* Subtle background color on hover/focus */
+  }
+
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    /* background-color: #FFFFFF; */
+    /* White background for the main content area */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+    /* Adding depth */
+    /* border-radius: 8px; */
+    /* Soft rounded corners */
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.8;
+    text-align: justify;
+    /* This will justify the text */
+  }
+
+  /* body { */
+    /* background-color: #f9f9f9; */
+    /* A light grey background */
+  /* } */
+
+  header {
+    /* background-color: #1A1A1A; */
+    /* Dark background for contrast */
+    /* color: #FFFFFF; */
+    /* White text for readability */
+    padding: 4rem 1rem;
+    /* Increased padding for more space */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    /* Use flexbox to align children */
+    flex-direction: column;
+    /* Stack children vertically */
+    align-items: center;
+    /* Center-align the flex items (children) horizontally */
+    justify-content: center;
+    /* Center-align the flex items (children) vertically */
+  }
+
+  h1 {
+    font-size: 2rem;
+    /* Make the title larger */
+    /* color: #EFEFEF; */
+    /* Slightly off-white for less harsh contrast */
+    margin-bottom: 0.5rem;
+    /* Space between the title and the tagline */
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    /* Smaller than h1 but still significant */
+    color: #CCCCCC;
+    /* Light grey for the subtitle */
+    margin-bottom: 2rem;
+    /* Space between the tagline and the navigation */
+  }
+
+  a.spaced-button {
+    margin: 5px 0;
+  }
+
+  a.button {
+    background-color: #007BFF;
+    /* Bright color for visibility */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    /* Smooth background transition */
+  }
+
+  a.button:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover for interactive feedback */
+  }
+
+  .content-flex {
+    display: flex;
+    align-items: center;
+    /* Aligns items vertically center in the container */
+    justify-content: center;
+    /* Centers the flex items horizontally */
+    gap: 2rem;
+    /* Adds space between the image and text */
+  }
+
+  .content-image {
+    max-width: 50%;
+    /* Adjust the width as necessary */
+    height: auto;
+    /* Keep the aspect ratio of the image */
+  }
+
+  .content-text {
+    max-width: 50%;
+    /* Adjust the width as necessary */
+  }
+
+  .bio-intro {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .bio-pic {
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .bio-details,
+  .bio-fun-facts {
+    margin-top: 2rem;
+  }
+
+  .bio-fun-facts ul {
+    list-style: inside square;
+  }
+}
